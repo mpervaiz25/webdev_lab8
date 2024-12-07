@@ -1,39 +1,39 @@
 #main-navbar {
   background-color: blue;
-  overflow: hidden;
+  overflow: hidden; /*make sures no overflowing content is visible*/
 }
 
 #navbar-container {
-  float: left;
-  width: 100%;
+  float: left; /*Aligns the navbar to the left*/
+  width: 100%; /*makes sure the navbar goes across the width of the full page*/
   position: relative;
 }
 #main-navbar ul {
-  list-style-type: none;
+  list-style-type: none; /*Removes default bullet points from the list */
   margin: 0;
   padding: 0;
   position: relative;
-  left: 50%;
-  float: left;
+  left: 50%; /* Centers the list horizontally */
+  float: left;/* Ensures the list floats left within its container */
 }
 
 #main-navbar ul li {
-  float: left;
+  float: left; /* Aligns list items horizontally */
   position: relative;
   right: 50%;
-  display: block;
+  display: block; /* Ensures the list items behave as block elements */
 }
 #main-navbar ul li a {
   display: block;
-  padding: 10px 20px;
-  color: #fff;
-  text-decoration: none;
+  padding: 10px 20px;/* Adds space inside the link for better readability */
+  color: #fff;/* Sets the link text color to white */
+  text-decoration: none; /* Removes the underline from the links */
 }
 
 #main-navbar ul li a:hover {
-  background-color: #000;
+  background-color: #000; /* Changes the background to black when hovered over */
 }
 
 #onpage {
-  text-decoration: underline overline;
+  text-decoration: underline overline; /* Adds both an underline and overline to the link */
 }
