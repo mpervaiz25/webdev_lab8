@@ -37,3 +37,28 @@
 #onpage {
   text-decoration: underline overline; /* Adds both an underline and overline to the link */
 }
+#sidebar {
+  position: fixed;/* Fixes the sidebar to remain in place when scrolling */
+  right:0%;/* Positions the sidebar to the right edge of the page */
+  background-color: red;/* Sets the sidebar background color to red */
+  height: 100%;
+  width: 20%; /* Sets the width of the sidebar to 20% of the viewport */
+}
+
+#sidebar ul {
+  list-style-type: none;
+  text-align: center;/* Centers the text inside the list items */
+  padding: 0;
+}
+
+#sidebar ul li a {
+  display: block;/* makes sure the clickable area spans the full width of the list item */
+  padding: 15px 0;
+  color: #fff;
+  text-decoration: none;
+}
+
+#sidebar ul li a:hover {
+  background-color: #000;/* Changes the background to black when hovered over */
+}
+}
